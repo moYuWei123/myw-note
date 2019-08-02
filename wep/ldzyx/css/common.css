@@ -1,0 +1,541 @@
+.top-c,
+.header-c,
+.content-c,
+.luxiantu-c,
+.fotter-c {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.top {
+  height: 76px;
+  background-color: #fdfcfc;
+
+  border-bottom: 2px solid #e5e7e7;
+}
+.luxiantu {
+  height: 1238px;
+  /* background-color: pink; */
+}
+
+.footer {
+  height: 581px;
+  background-color: fbfdfd;
+}
+.top-c {
+  position: relative;
+}
+
+.top-c .ml {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient(
+    69deg,
+    rgb(65, 212, 227) 0%,
+    rgb(80, 227, 241) 47%,
+    rgb(94, 242, 255) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    69deg,
+    rgb(65, 212, 227) 0%,
+    rgb(80, 227, 241) 47%,
+    rgb(94, 242, 255) 100%
+  );
+  background-image: -ms-linear-gradient(
+    69deg,
+    rgb(65, 212, 227) 0%,
+    rgb(80, 227, 241) 47%,
+    rgb(94, 242, 255) 100%
+  );
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  width: 45px;
+  height: 45px;
+  z-index: 51;
+}
+
+.ml .mla {
+  color: #ffffff;
+  font-size: 22px;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  /* font-family: "TRENDS"; */
+  /* .慢旅 {
+  font-size: 30px;
+  font-family: "TRENDS";
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  -moz-transform: matrix( 0.85363162096571,0,0,0.85363162096571,0,0);
+  -webkit-transform: matrix( 0.85363162096571,0,0,0.85363162096571,0,0);
+  -ms-transform: matrix( 0.85363162096571,0,0,0.85363162096571,0,0);
+  position: absolute;
+  left: 416.745px;
+  top: 25.675px;
+  z-index: 53;
+}
+ */
+}
+
+.top-c .manlv {
+  font-size: 25.6px;
+  position: absolute;
+  color: #666666;
+  top: 31px;
+  left: 61px;
+}
+
+.top .nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: 33px;
+  height: 100%;
+}
+
+.nav .nav-item {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 4em;
+  text-align: center;
+  margin-right: 81px;
+  font-size: 16px;
+  color: rgb(129, 129, 129);
+  font-family: "Microsoft YaHei";
+  /* font-weight: bolder; */
+}
+
+.nav-item .submenu {
+  /* display: block; */
+  display: none;
+  position: relative;
+  width: 84px;
+  height: 60px;
+  background-color: rgb(129, 129, 129, 10%) ;
+  top: 15px;
+  right: 8px;
+  border-radius: 5px;
+  
+}
+
+.submenu a {
+  display: block;
+  line-height: 1.5;
+  padding-top: 4px;
+}
+
+.nav-item.yy .submenu a{
+  color: #b1b1b2;
+}
+
+.nav-item a {
+  font-family: "Microsoft YaHei";
+  color: rgb(129, 129, 129);
+  font-size: 16px;
+}
+
+.nav-item.yy a {
+  color: #00daed;
+}
+
+.nav-item.mr0 {
+  margin-right: 0;
+}
+
+.nav-item .line {
+  /* display: none; */
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 24px;
+  width: 100%;
+  height: 2px;
+  background-color: #00daed;
+}
+
+.nav .nav-item:hover .line {
+  display: block;
+}
+.nav .nav-item.yy:hover .submenu,
+.nav .nav-item.mr0:hover .submenu {
+  display: block;
+}
+
+.nav-item.yy .line {
+  display: block;
+}
+
+.fotter-c p,
+.banner-c p {
+  display: block;
+
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+
+  line-height: 1.5;
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+
+  /* background-color: pink; */
+}
+.fotter-c .pp,
+.banner-c .pp {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(101, 101, 101);
+  line-height: 1.2;
+}
+.fotter-c .kuai {
+  padding-top: 10px;
+  position: relative;
+}
+
+.fotter-c .pa {
+  margin-top: 77px;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: rgb(101, 101, 101);
+  line-height: 1.2;
+}
+
+.fotter-c .pb {
+  font-size: 14px;
+  color: #9fa2a2;
+  font-family: "Microsoft YaHei";
+  margin-top: 51px;
+  line-height: 2;
+  position: relative;
+}
+
+.kuai .qq,
+.kuai .wx,
+.kuai .wb {
+  float: left;
+  display: block;
+  width: 20px;
+  height: 17px;
+  background: url("../img/QQ.png") no-repeat center;
+  margin-top: 22px;
+
+  margin-right: 21px;
+}
+.kuai .wx {
+  background: url("../img/wx.png");
+  margin-right: 21px;
+  width: 20px;
+  height: 15px;
+}
+.kuai .wb {
+  background: url("../img/wb.png");
+  margin-right: 21px;
+  height: 15px;
+}
+
+.kuai .biaozhi {
+  font-size: 14px;
+  color: #9fa2a2;
+  font-family: "Microsoft YaHei";
+  line-height: 1;
+  position: absolute;
+  top: 325px;
+}
+.kuai .tubiao {
+  position: absolute;
+  width: 139px;
+  height: 40px;
+
+  display: block;
+}
+
+.kuai .xinxi {
+  position: absolute;
+  width: 500px;
+  height: 241px;
+  /* background-color: pink; */
+  right: 0;
+  top: 75px;
+}
+
+.xinxi a {
+  color: #bfbdbd;
+  font-size: 14;
+}
+.xinxi .xinxia {
+  float: left;
+  margin-left: 153px;
+  color: #bfbdbd;
+  font-size: 14;
+}
+
+.xinxi .xinxia.a {
+  margin-left: 0;
+}
+
+.xinxi .line {
+  position: absolute;
+  display: block;
+
+  width: 135px;
+  height: 1px;
+  background-color: #d4d3d3;
+  top: 66px;
+}
+
+.xinxi.c {
+  display: block;
+  position: absolute;
+  top: 113px;
+}
+
+.xinxi .anniv {
+  position: absolute;
+
+  width: 61px;
+  height: 24px;
+  top: 210px;
+  left: 0;
+  background-color: rgb(71, 70, 70);
+  color: #e0e0e0;
+
+  line-height: 2px;
+  /* .矩形_9_拷贝 {
+  background-color: rgb(71, 70, 70);
+  position: absolute;
+  left: 1001px;
+  top: 3967px;
+  width: 61px;
+  height: 24px;
+  z-index: 228;
+}
+ */
+}
+
+.banner-c {
+  position: relative;
+  padding-top: 100px;
+}
+
+.banner-c .imga {
+  position: absolute;
+  width: 429px;
+  height: 430px;
+  background: url("../img/m.png");
+  display: block;
+  top: 190px;
+}
+
+.banner-c .wenben {
+  width: 642px;
+  height: 430px;
+  /* background-color: pink; */
+  position: absolute;
+
+  top: 190px;
+  left: 557px;
+}
+/* .wenben p {
+  display: inline-block;
+} */
+
+.wenben .aa {
+  font-size: 14px;
+  color: #706f6f;
+
+  position: absolute;
+  top: 0px;
+  left: 147px;
+  line-height: 2;
+}
+
+.wenben .aa.b {
+  top: 185px;
+}
+
+.wenben .aa.c {
+  top: 350px;
+}
+
+.wenben .a {
+  font-size: 20px;
+  color: #5a5959;
+  display: block;
+  margin-bottom: 120px;
+}
+
+.wenben a {
+  font-size: 14px;
+}
+a:link {
+  text-decoration: none;
+}
+
+.luxiantu-c {
+  position: relative;
+}
+.luxiantu-c .bbb {
+  position: absolute;
+  width: 1200px;
+  height: 945px;
+  display: block;
+  /* background: blue; */
+  top: 100px;
+}
+
+.luxiantu-c p {
+  display: inline-block;
+  position: absolute;
+  top: 1000px;
+} 
+.shuzi {
+  display: inline-block;
+  position: absolute;
+  top: 1100px;
+  right: 455px;
+
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+
+.luxiantu-c span {
+  position: relative;
+  display: block;
+  width: 324px;
+  height: 273px;
+  float: right;
+  /* background-color: yellow; */
+  margin-bottom: 50px;
+  margin-left: 70px;
+  border-bottom: 1px solid #9ea0a0;
+}
+.luxiantu-c .imgaa {
+  width: 310px;
+  height: 199px;
+  background: url("../img/n.png") no-repeat center;
+}
+
+.luxiantu-c .imgaa.bb {
+  background: url("../img/o.png") no-repeat center;
+}
+.luxiantu-c .imgaa.cc {
+  background: url("../img/p.png") no-repeat center;
+}
+
+.luxiantu-c .imgaa.dd {
+  background: url("../img/q.png") no-repeat center;
+}
+
+.luxiantu-c .imgaa.ee {
+  background: url("../img/r.png") no-repeat center;
+}
+.luxiantu-c .imgaa.ff {
+  background: url("../img/s.png") no-repeat center;
+}
+.luxiantu-c .imgaa.gg {
+  background: url("../img/t.png") no-repeat center;
+}
+.luxiantu-c .imgaa.hh {
+  background: url("../img/u.png") no-repeat center;
+}
+.luxiantu-c .imgaa.ii {
+  background: url("../img/v.png") no-repeat center;
+}
+
+.luxiantu-c .bbb .lvyou {
+  display: inline-block;
+  background-color: #00daed;
+}
+
+.bbb p {
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  color: rgb(67, 69, 69);
+  font-weight: bold;
+  /* .国内游 {
+  font-size: 20px;
+  font-family: "Microsoft YaHei";
+  color: rgb(67, 69, 69);
+  font-weight: bold;
+  line-height: 1.2;
+  position: absolute;
+  left: 311.891px;
+  top: 617.793px;
+  z-index: 48;
+}
+ */
+
+ border:1px solid #c2c7cc;
+ padding: 10px 10px;
+}
+
+.bbb .aaaaa {
+  background-color: #00daed;
+}
+.bbb .bbbbb {
+  position: absolute;
+  top: 424px;
+}
+.bbb .ppppp {
+  position: absolute;
+  top: 734px;
+}
+
+
+
+.luxiantu-c .bbb a {
+  position: absolute;
+  font-size: 18px;
+  line-height: 1.2;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #434545;
+  font-family: "Microsoft YaHei";
+}
+
+.luxiantu-c .bbb .ab {
+  font-size: 14px;
+  color: rgb(67, 69, 69);
+  line-height: 1.6;
+}
+
+.luxiantu-c p {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+}
+.luxiantu-c .qqw {
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  color: #6f6f6f;
+  /* .联系我们 {
+  font-size: 24px;
+  font-family: "Microsoft YaHei";
+  color: rgb(59, 59, 59);
+  line-height: 1.2;
+  -moz-transform: matrix( 1,0,0,0.98823529411767,0,0);
+  -webkit-transform: matrix( 1,0,0,0.98823529411767,0,0);
+  -ms-transform: matrix( 1,0,0,0.98823529411767,0,0);
+  position: absolute;
+  left: 301.5px;
+  top: 174.022px;
+  z-index: 4;
+}
+ */
+}
+
+.luxiantu-c .wwq {
+  top: 131px;
+  color: #6f6f6f;
+
+  font-size: 14px;
+}
+.line input {
+  width: 135px;
+  position: absolute;
+  bottom: 0;
+  /* display: none; */
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
